@@ -10,7 +10,7 @@ to 'target'.
 
 ---
 
-Layer (from Perceptron.py):
+**Layer** (from Perceptron.py):
 
 	PARAMETERS:
 	
@@ -27,7 +27,7 @@ Layer (from Perceptron.py):
 		-> DECAY (decreasing the learning rate)
 		
 
-fit (from Layer.fit()):
+**fit** (from Layer.fit()):
 
 	PARAMETERS:
 	
@@ -40,7 +40,7 @@ fit (from Layer.fit()):
 		-> verbose (for information of the process) -> 'True' or 'False'
 		
 
-Backpropagation (from BP.py):
+**Backpropagation** (from BP.py):
 
 	-> Equation = New Weight = Old Weight + ALPHA * (loss value) * Current input
 	
@@ -50,7 +50,7 @@ Backpropagation (from BP.py):
 	-> ALPHA = learning rate
 
 
-Loss (from Loss.py):
+**Loss** (from Loss.py):
 
 	* Mean Squared Error = sum of((target - predict) ** 2) / number of inputs 
 	
@@ -62,7 +62,7 @@ Loss (from Loss.py):
 	
 -----
 
---- FILES ---
+**FILES**
 
 -> Perceptron.py (Main file - include Layer class)
 
