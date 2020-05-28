@@ -1,6 +1,7 @@
-# Perceptron
+# Perceptron Module
 
----------- Main Structure ----------
+**Main Structure**
+---
 
 Single neuron Perceptron with
 backpropagation process.
@@ -9,7 +10,8 @@ Can be used for "value optimization".
 Loss value is calculating according
 to 'target'.
 
------
+---
+
 Layer (from Perceptron.py):
 	PARAMETERS:
 		-> inputs
@@ -46,6 +48,5 @@ Loss (from Loss.py):
 
 ---
 @author: Egesabanci
-
 last update: 28 May 2020
 ---
