@@ -14,10 +14,10 @@ target = np.array([25])
 bias = 0.5
 loss = 'TAR_PRE'
 learning_rate = 1e-3
-DECAY = 1e-6
+decay = 1e-6
 epochs = 30
 
 from Perceptron import Layer
 model = Layer(inputs = inputs, weights = weights, target = target,
-              bias = bias, ALPHA = learning_rate, DECAY = DECAY)
+              bias = bias, ALPHA = learning_rate, DECAY = decay)
 model.fit(epochs = epochs, loss = loss, verbose = True)
