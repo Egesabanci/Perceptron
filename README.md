@@ -1,6 +1,7 @@
 # Perceptron
 
 ---------- Main Structure ----------
+
 Single neuron Perceptron with
 backpropagation process.
 
@@ -45,5 +46,6 @@ Loss (from Loss.py):
 
 ---
 @author: Egesabanci
+
 last update: 28 May 2020
 ---
