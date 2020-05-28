@@ -20,7 +20,7 @@ class Layer(object):
         self.DECAY = DECAY # decrease learning - each step
         
     # fit the model
-    def fit(self, epochs, loss = 'MSE', verbose = 0):
+    def fit(self, epochs, loss = 'MSE', verbose = True):
         self.epochs = epochs
         self.loss = loss
         self.verbose = verbose
