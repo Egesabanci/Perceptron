@@ -52,23 +52,23 @@ to 'target'.
 
 **Loss** (from Loss.py):
 
-	* Mean Squared Error = sum of((target - predict) ** 2) / number of inputs 
+	* Mean Squared Error = sum of((target - prediction) ** 2) / number of inputs 
 	
-	* Mean Absolute Error = sum of(abs(target - predict)) / number of inputs
+	* Mean Absolute Error = sum of(abs(target - prediction)) / number of inputs
 	
-	* Cross Entropy = (-1 / len(inputs)) * sum of(target.log(predict))
+	* Cross Entropy = (-1 / len(inputs)) * sum of(target.log(prediction))
 	
-	* TAR_PRE (target - predict) Error = (target - predict) -> (highly recommended) 
+	* TAR_PRE (target - prediction) Error = (target - prediction) -> (highly recommended) 
 	
 -----
 
 **FILES**
 
--> Perceptron.py (Main file - include Layer class)
+-> Perceptron.py (Main file - include **Layer** class)
 
--> BP.py (Backpropagation file - include backpropagation function)
+-> BP.py (Backpropagation file - include **backpropagation function**)
 
--> Loss.py (Loss functions - include loss functions)
+-> Loss.py (Loss functions - include **loss functions**)
 
 
 ---
