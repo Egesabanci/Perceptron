@@ -62,7 +62,7 @@ to 'target'.
 	
 -----
 
-**FILES**
+**MAIN FILES**
 
 -> Perceptron.py (Main file - include **Layer** class)
 
