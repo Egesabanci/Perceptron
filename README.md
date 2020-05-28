@@ -68,7 +68,7 @@ to 'target'.
 
 -> BP.py (Backpropagation file - include **backpropagation function**)
 
--> Loss.py (Loss functions - include **loss functions**)
+-> Loss.py (Loss file - include **loss functions**)
 
 
 ---
