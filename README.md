@@ -4,7 +4,6 @@
 
 Single neuron Perceptron with
 backpropagation process.
-
 Can be used for "value optimization".
 Loss value is calculating according
 to 'target'.
@@ -46,7 +45,6 @@ Backpropagation (from BP.py):
 	-> Equation = New Weight = Old Weight + ALPHA * (loss value) * Current input
 	
 	-> After feed forward; backpropagate and update the weights
-	
 	   with backpropagation equation.(For each weight)
 	   
 	-> ALPHA = learning rate
@@ -74,7 +72,8 @@ Loss (from Loss.py):
 
 
 ---
-@author: Egesabanci
+**@author: Egesabanci**
 
-last update: 28 May 2020
+**last update: 28 May 2020**
+
 ---
