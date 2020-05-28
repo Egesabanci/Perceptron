@@ -4,7 +4,7 @@
 
 Single neuron Perceptron with
 backpropagation process.
-Can be used for "value optimization".
+Can be used for **value optimization**.
 Loss value is calculating according
 to 'target'.
 
