@@ -40,7 +40,7 @@ class Layer(object):
             if self.loss == 'TAR_PRE':
                 loss_value = TAR_PRE(self.target, prediction)
             
-            # backpropagate - according to loss
+            # backpropagation - according to loss
             self.weights = Backpropagation(self.inputs, self.weights,
                                            self.ALPHA, loss_value)
             
