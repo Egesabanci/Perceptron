@@ -43,7 +43,6 @@ class Layer(object):
             # backpropagation - according to loss
             self.weights = Backpropagation(self.inputs, self.weights,
                                            self.ALPHA, loss_value)
-            
             # decrease learning rate
             self.ALPHA -= self.DECAY
             
